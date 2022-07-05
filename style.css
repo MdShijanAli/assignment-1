@@ -88,7 +88,7 @@ body {
 
 .donate p {
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     padding: 0 150px;
 }
 
@@ -128,3 +128,61 @@ body {
 }
 
 /* section-2 css code finished */
+
+
+/* section-3 css start */
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.donation h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #333;
+    line-height: 100px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+
+.donation p {
+    text-align: center;
+    font-size: 18px;
+    padding: 0 250px;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.donation-box {
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+}
+
+.donation-box-box {
+    padding: 70px 30px 50px 30px;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 5px;
+}
+
+.donation-box-box h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.donation-box-box p {
+    color: #666;
+}
+
+.donation-box-box i {
+    font-size: 50px;
+}
+
+
+
+/* scction-3 css finished */
