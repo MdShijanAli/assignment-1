@@ -1,0 +1,70 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+
+/* section top start */
+
+
+.section-top {
+    background-image: url(./photos/banner-3.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 100px;
+    background-size: cover;
+    display: flex;
+
+}
+
+.left {
+    width: 15%;
+}
+
+.middle {
+    width: 60%;
+}
+
+.middle h1 {
+
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+    line-height: 100px;
+
+}
+
+.middle p {
+
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    margin-top: -40px;
+    margin-bottom: 50px;
+
+}
+
+
+
+.right {
+    width: 35%;
+}
+
+.button {
+    padding: 15px 40px;
+    color: white;
+    background-color: red;
+
+    text-decoration: none;
+
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+
+/* top section css finish */
