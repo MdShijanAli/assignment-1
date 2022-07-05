@@ -1,7 +1,7 @@
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0;
+
     text-transform: capitalize;
 }
 
@@ -12,23 +12,22 @@ body {
 .section-top {
     background-image: url(./photos/banner-3.jpeg);
     background-repeat: no-repeat;
-    width: 100%;
+
     padding: 100px;
     background-size: cover;
     display: flex;
 
 }
 
-.left {
-    width: 15%;
-}
+
 
 .middle {
-    width: 60%;
+    width: 70%;
+    margin: auto;
 }
 
 .middle h1 {
-
+    font-weight: 500;
     font-size: 80px;
     text-align: center;
     color: #fff;
@@ -49,9 +48,7 @@ body {
 
 
 
-.right {
-    width: 35%;
-}
+
 
 .button {
     padding: 15px 40px;
@@ -68,3 +65,66 @@ body {
 
 
 /* top section css finish */
+
+
+
+/* section -2 css start */
+
+.section-2 {
+    width: 60%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+
+.donate h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #333;
+    line-height: 100px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.donate p {
+    text-align: center;
+    font-size: 16px;
+    padding: 0 150px;
+}
+
+.tk-box {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tk {
+    padding: 25px 40px;
+    background: #ddd;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 5px;
+
+}
+
+.tk-2 {
+    padding: 25px 40px;
+    background: #FFEEEE;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 3px solid red;
+    border-radius: 5px;
+}
+
+
+.donate-amount {
+    margin-top: 100px;
+    border: none;
+    color: #ddd;
+    margin: auto;
+    display: block;
+    font-size: 18px;
+
+}
+
+/* section-2 css code finished */
